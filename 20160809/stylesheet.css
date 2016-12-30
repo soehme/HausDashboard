@@ -1,0 +1,57 @@
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;	
+}
+
+div.content {
+	float:left;
+}
+
+button {
+	width:85px;
+	height:85px;
+}
+
+#map1 {
+        width: 350px;
+        height: 500px;
+        background-color: grey;
+}
+
+#rss-usinger-anzeiger {
+	width: 350px;
+}
+
+
+.feedEkList {
+	width:100%;
+	list-style:none outside none;
+	border:1px solid #D3CAD7;
+	padding:4px 6px;
+	color:#3E3E3E;
+}
+
+.feedEkList li{
+	border-bottom:1px solid #D3CAD7;
+	padding:5px;
+}
+
+.feedEkList li:last-child {
+	border-bottom:none;
+}
+
+.itemTitle a {
+	font-weight:bold;
+	color:#4EBAFF !important;
+	text-decoration:none
+}
+	
+.itemTitle a:hover {
+	text-decoration:underline
+}
+
+.itemDate{
+	font-size:0.8em;
+	color:#AAAAAA;
+}

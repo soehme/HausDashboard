@@ -1,0 +1,117 @@
+/*html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;	
+}*/
+
+div.content {
+	float:left;
+}
+
+.wrap {
+  position: relative;
+  margin: 3em 0;
+}
+
+button {
+	width:85px;
+	height:85px;
+	margin:0;
+	padding:0;
+}
+
+#map1 {
+	width: 350px;
+	height: 500px;
+}
+
+#verkehr {
+	width: 400px;
+}
+
+#rss-usinger-anzeiger {
+	width: 350px;
+}
+
+.feedEkList {
+	width:100%;
+	list-style:none outside none;
+	border:1px solid #D3CAD7;
+	padding:4px 6px;
+	color:#3E3E3E;
+}
+
+.feedEkList li{
+	border-bottom:1px solid #D3CAD7;
+	padding:5px;
+}
+
+.feedEkList li:last-child {
+	border-bottom:none;
+}
+
+.itemTitle a {
+	font-weight:bold;
+	color:#4EBAFF !important;
+	text-decoration:none;
+}
+	
+.itemTitle a:hover {
+	text-decoration:underline;
+}
+
+.itemDate{
+	font-size:0.8em;
+	color:#AAAAAA;
+}
+
+.frame {
+	height: 800px;
+	line-height: 800px;
+	/*overflow: hidden;*/
+}
+
+.frame ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.frame ul li {
+	float: left;
+	height: 100%;
+	margin: 0 1px 0 0;
+	padding: 0;
+	background: #333;
+	color: #ddd;
+	text-align: center;
+	cursor: pointer;
+}
+
+.frame ul li.active {
+  color: #fff;
+  background: #a03232;
+}
+
+.scrollbar {
+  margin: 0 0 1em 0;
+  height: 2px;
+  background: #ccc;
+  line-height: 0;
+}
+
+.scrollbar .handle {
+  width: 100px;
+  height: 100%;
+  background: #292a33;
+  cursor: pointer;
+}
+
+.scrollbar .handle .mousearea {
+  position: absolute;
+  top: -9px;
+  left: 0;
+  width: 100%;
+  height: 20px;
+}
